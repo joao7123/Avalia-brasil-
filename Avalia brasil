@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliar Brasil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Avaliar Brasil</h1>
+            <p>Nos ajude a melhorar sua experiência no Brasil!</p>
+        </header>
+
+        <main>
+            <section class="avaliacao">
+                <h2>Como você avalia sua experiência?</h2>
+                <div class="stars">
+                    <input type="radio" id="star5" name="rating" value="5"><label for="star5">★★★★★</label>
+                    <input type="radio" id="star4" name="rating" value="4"><label for="star4">★★★★☆</label>
+                    <input type="radio" id="star3" name="rating" value="3"><label for="star3">★★★☆☆</label>
+                    <input type="radio" id="star2" name="rating" value="2"><label for="star2">★★☆☆☆</label>
+                    <input type="radio" id="star1" name="rating" value="1"><label for="star1">★☆☆☆☆</label>
+                </div>
+
+                <button id="enviarBtn">Enviar Avaliação</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Avaliar Brasil</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
